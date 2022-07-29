@@ -55,10 +55,10 @@ function displayData(response){
         images.style.background = 'url(./images/day/misty.jpg)'
     }
     if(response.weather[0].main=='Clouds'){
-        images.style.background = 'url(./images/day/clouds.jpg)'
+        images.style.background = 'url(./images/day/clouds.jpg) no-repeat'
     }
     if(response.weather[0].main=='Rain'){
-        images.style.background = 'url(./images/day/rainy.jpg)'
+        images.style.background = 'url(./images/day/rainy-day.jpg) no-repeat'
     }
     if(response.weather[0].main=='Clear'){
         images.style.background = 'url(./images/day/sunny.jpg)'
